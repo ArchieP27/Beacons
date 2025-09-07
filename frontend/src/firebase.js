@@ -4,7 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore"; // <-- add Firestore
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCieLhNXczordarK4FWaqad_b_vp0o3NaE",
+  apiKey: "key",
   authDomain: "beacon-21672.firebaseapp.com",
   projectId: "beacon-21672",
   storageBucket: "beacon-21672.appspot.com",
