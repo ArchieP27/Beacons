@@ -1,0 +1,40 @@
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #240046;
+  color: #ffccff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ff66cc;
+  font-size: 1rem;
+}
+
+.welcome {
+  font-size: 1.1rem;
+}
+
+.name {
+  color: #ff66cc;
+  font-weight: bold;
+}
+
+.badge {
+  color: #00ffcc;
+  margin-left: 5px;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+.back-btn {
+  background: transparent;
+  border: 1px solid #ff66cc;
+  color: #ff99ff;
+  padding: 5px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #3c096c;
+  color: white;
+}

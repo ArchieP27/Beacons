@@ -1,0 +1,166 @@
+/* Whole app background */
+.App {
+  background-color: #0f001f;
+  min-height: 100vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Menu bar stays at top */
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #240046;
+  color: #ffccff;
+  padding: 15px 30px;
+  border-bottom: 2px solid #ff66cc;
+  font-size: 1.2rem;
+}
+
+/* Landing page content aligned top, not center */
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Title */
+.main-title {
+  font-size: 4rem;
+  color: #ff66cc;
+  text-shadow: 0 0 20px #cc33ff, 0 0 40px #ff66cc;
+  margin: 20px 0 10px 0;
+}
+
+/* Subheading */
+.subheading {
+  font-size: 1.5rem;
+  color: #ffccff;
+  margin-bottom: 40px;
+}
+
+/* Buttons stacked below heading */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Big neon buttons */
+.btn {
+  background: #3c096c;
+  color: #ff99ff;
+  border: 2px solid #ff66cc;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  box-shadow: 0 0 10px #ff66cc, 0 0 20px #cc33ff;
+}
+
+.btn:hover {
+  background: #5a189a;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Subtext under button text */
+.sub {
+  font-size: 1rem;
+  color: #ffccff;
+  margin-top: 5px;
+}
+
+
+/* Section titles */
+.section-title {
+  font-size: 2rem;
+  color: #ff66cc;
+  margin: 20px 0 5px 0;
+}
+
+.section-sub {
+  font-size: 1rem;
+  color: #ffccff;
+  margin-bottom: 20px;
+}
+
+/* Post form */
+.post-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid #ff66cc;
+  background: #240046;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+/* Post list */
+.post-list {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.post-card {
+  background: #1a0033;
+  border: 1px solid #ff66cc;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px #cc33ff;
+}
+
+.post-text {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #ffccff;
+}
+
+.post-user {
+  font-weight: bold;
+  color: #ff99ff;
+}
+
+/* Progress bar container */
+.progress-container {
+  width: 100%;
+  max-width: 600px;
+  height: 20px;
+  background: #3c096c;
+  border-radius: 10px;
+  margin: 20px auto;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 10px #cc33ff;
+}
+
+/* Filled bar */
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #ff66cc, #cc33ff);
+  transition: width 0.3s ease;
+}
